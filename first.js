@@ -69,7 +69,7 @@ else{
 
 //print the number is even or odd
 
-let number = 33;
+let number = 34;
 
 if(number%2===0){
     console.log("This is an even number")
@@ -78,6 +78,9 @@ else{
     console.log("This is an odd number");
 }
 
+//another method to find the number is even or odd
+result = number%2===0 ? "Even" : "Odd"
+console.log(result)
 
 // print the number in reverse as individual number
 
@@ -120,4 +123,48 @@ switch(day){
 console.log("bye...")
 
 
+//template literal
+let num5 = 45
+let num6 = 5
+let sum
 
+sum = num5 + num6
+
+console.log(`The sum of ${num5} and ${num6} is ${sum}`)
+
+
+// for loop
+
+for(i=1;i<=5;i++){
+   console.log('Hello',i)
+   for (j=1;j<=5;j++){
+       console.log('Hi',j)
+   }
+}
+
+//object in js
+let student = {
+    name: 'kadir',
+    Id: 07,
+    subject:{
+        maths:98,
+        english:92,
+        social: 94
+    }
+}
+
+console.log(student)
+
+// see the specified properties
+console.log(student.subject)
+console.log(student.subject.maths)
+console.log(student.name)
+
+// find the length of teh properties
+console.log(student.subject.maths.length)
+console.log(student.name.length)
+console.log(student.name1?.length)
+
+// delete the properties
+delete student.Id
+console.log(student)
