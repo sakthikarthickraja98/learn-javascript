@@ -168,3 +168,34 @@ console.log(student.name1?.length)
 // delete the properties
 delete student.Id
 console.log(student)
+
+//for loop in object
+let input = "name"
+let student1 = {
+    name: 'kadir',
+    Id: 07,
+    subject:{
+        maths:98,
+        english:92,
+        social: 94
+    }
+}
+
+//print the value for alreay alerted key in a variable
+console.log(student1[input])
+
+//print the key in object
+for(let key in student1)
+{
+    console.log(key);
+}
+
+//print the key with value in object
+for(let key in student1)
+{
+    console.log(key, student1[key]);
+}
+
+
+
+
