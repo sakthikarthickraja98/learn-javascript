@@ -197,5 +197,39 @@ for(let key in student1)
 }
 
 
+// define a function and call it
+function myfun()
+{
+    console.log("hello world!")
+}
+
+myfun()
+
+// return function
+
+function myfun1()
+{
+    return "hello!"
+}
+
+let z = myfun1()
+console.log(z)
+
+//pass parameters in function
+function myfun2(username)
+{
+    return `Hello ${username}!!`
+}
+
+let username = "skr"
+let func = myfun2(username)
+console.log(func) 
+
+
+
+
+
+
+
 
 
