@@ -50,3 +50,21 @@ console.log(x)
 let y = x+1
 console.log(y)
 console.log(num3)
+
+//using if else find the greater number
+let a = 20;
+let b = 30;
+let c = 40;
+
+if(a>b && a>c){
+  console.log("a is the greater number")
+}
+else if(b>a && b>c){
+  console.log("b is the greater number")
+}
+else{
+  console.log("c is the greater number")
+}
+
+
+
