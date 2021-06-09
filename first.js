@@ -79,6 +79,14 @@ else{
 }
 
 
+// print the number in reverse as individual number
+
+let number1 = 2435677;
+
+while(number1>0){
+    console.log(number1%10)
+    number1 = parseInt(number1/10)
+}
 
 
 
