@@ -90,6 +90,34 @@ while(number1>0){
 
 
 
+//switch conditiion
+let day = "holiday"
+
+switch(day){
+    case'monday':
+        console.log("7am")
+        break
+
+    case'tuesday':
+    case'wednesday':
+    case'thursday':
+        console.log("4am")
+        break
+
+    case'friday':
+         console.log("9am")
+         break
+
+    case'saturday':
+    case'sunday':
+        console.log("8am")
+        break
+
+    default:
+        console.log("Time for break")
+
+}
+console.log("bye...")
 
 
 
