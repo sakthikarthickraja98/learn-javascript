@@ -257,6 +257,19 @@ console.log(func)
 
 
 
+// function expression
+let add = function(num6,num7)
+         {
+           return num6+num7;
+         }
+
+let addition = add(5,6)
+console.log(addition)
+
+let num9 = add
+let num10 = num9(8,8)
+console.log(num10)
+
 
 
 
