@@ -1,12 +1,15 @@
 //print hello
 console.log("hello")
 
+
 //add numbers and print it
 console.log(2+2)
+
 
 //use let to initialize variable 
 let num = 5+5
 console.log(num)
+
 
 //initialize the variable for first time only, if we try it for next step also then it will show an error
 num = 5+5
@@ -14,9 +17,11 @@ console.log(num)
 
 console.log(num + 5)
 
+
 //use let to assign variable for string
 let user = 'skr'
 console.log(user)
+
 
 //constant(const) is used to make that value in the constant. If we use const then we can't change the value
 let r = 5
@@ -27,13 +32,16 @@ r = 6
 area = pi * r * r
 console.log(area)
 
+
 //assign variable for float and find the type of data using typeof
 let num1 = 7.8
 console.log(typeof num1)
 
+
 //using n in the end of the see the full length of number
 let num2 = 1984298984896949889n
 console.log(num2)
+
 
 //we can add the above type of number to that same type
 console.log(num2 + 2n)
@@ -51,6 +59,7 @@ let y = x+1
 console.log(y)
 console.log(num3)
 
+
 //using if else find the greater number
 let a = 20;
 let b = 30;
@@ -67,6 +76,7 @@ else{
 }
 
 
+
 //print the number is even or odd
 
 let number = 34;
@@ -78,9 +88,13 @@ else{
     console.log("This is an odd number");
 }
 
+
+
 //another method to find the number is even or odd
 result = number%2===0 ? "Even" : "Odd"
 console.log(result)
+
+
 
 // print the number in reverse as individual number
 
@@ -123,6 +137,7 @@ switch(day){
 console.log("bye...")
 
 
+
 //template literal
 let num5 = 45
 let num6 = 5
@@ -133,6 +148,7 @@ sum = num5 + num6
 console.log(`The sum of ${num5} and ${num6} is ${sum}`)
 
 
+
 // for loop
 
 for(i=1;i<=5;i++){
@@ -141,6 +157,8 @@ for(i=1;i<=5;i++){
        console.log('Hi',j)
    }
 }
+
+
 
 //object in js
 let student = {
@@ -155,19 +173,23 @@ let student = {
 
 console.log(student)
 
+
 // see the specified properties
 console.log(student.subject)
 console.log(student.subject.maths)
 console.log(student.name)
+
 
 // find the length of teh properties
 console.log(student.subject.maths.length)
 console.log(student.name.length)
 console.log(student.name1?.length)
 
+
 // delete the properties
 delete student.Id
 console.log(student)
+
 
 //for loop in object
 let input = "name"
@@ -181,8 +203,10 @@ let student1 = {
     }
 }
 
+
 //print the value for alreay alerted key in a variable
 console.log(student1[input])
+
 
 //print the key in object
 for(let key in student1)
@@ -190,11 +214,13 @@ for(let key in student1)
     console.log(key);
 }
 
+
 //print the key with value in object
 for(let key in student1)
 {
     console.log(key, student1[key]);
 }
+
 
 
 // define a function and call it
@@ -205,6 +231,8 @@ function myfun()
 
 myfun()
 
+
+
 // return function
 
 function myfun1()
@@ -214,6 +242,8 @@ function myfun1()
 
 let z = myfun1()
 console.log(z)
+
+
 
 //pass parameters in function
 function myfun2(username)
