@@ -273,6 +273,16 @@ console.log(num10)
 
 
 
+//global variable and local variable
+function three(num1, num2, num3=7){
+    return num1+num2+num3;
+}
+
+let fun = three(3,4)
+console.log(fun)
+
+
+
 
 
 
